@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/dark_bg">
+
+    <bluetooth.maze.Joystick
+        android:layout_width="245dp"
+        android:layout_height="245dp"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/statusView"
+        android:id="@+id/joystick"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Текущее время"
+        android:id="@+id/timer_title"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@color/defaultTextColor"
+        android:textSize="20dp"
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="00:00:00"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:layout_marginTop="3dp"
+        android:layout_below="@id/timer_title"
+        android:textColor="@color/defaultTextColor"
+        android:background="@drawable/bg_timer"
+        android:id="@+id/timer"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Лучшее время"
+        android:layout_below="@id/timer"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:textColor="@color/defaultTextColor"
+        android:id="@+id/best_time_title" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/bg_timer"
+        android:text="00:00:00"
+        android:textColor="#ffd54f"
+        android:id="@+id/timer_best"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:layout_below="@+id/best_time_title" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:text="Состояние подключения   "
+        android:textSize="15dp"
+        android:id="@+id/statusView"
+        android:textAlignment="center"
+        android:textColor="@color/defaultTextColor"/>
+
+    <TextView
+        android:layout_width="15dp"
+        android:layout_height="30dp"
+        android:textColor="#64dd17"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:layout_alignRight="@+id/statusView"
+        android:layout_below="@+id/joystick"
+        android:id="@+id/statusIndicator"
+        android:text="●"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="AlwaysShowAction">
+
+    <item android:id="@+id/turnOnAccelerometer"
+        android:icon="@drawable/ic_accelerometer"
+        android:title="Акселерометр"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/enterSettings"
+        android:icon="@drawable/ic_settings"
+        android:title="Настройки"
+        app:showAsAction="always"
+        />
+
+
+</menu>

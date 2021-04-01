@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#282828"
+    android:padding="10dp">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Управление"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:id="@+id/control_title"
+        />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/control_title"
+        android:layout_marginTop="8dp"
+        android:textSize="17dp"
+        android:text="чувствительность акселерометра"
+        android:textColor="@color/defaultTextColor"
+        android:id="@+id/accelerometerSettingsTitle"/>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/accelerometerSettingsTitle"
+        android:id="@+id/accelerometerSettingsSeekBar"/>
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/accelerometerSettingsSeekBar"
+        android:text="0"
+        android:id="@+id/ASSBview"
+        android:textColor="@color/defaultTextColor"
+        />
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/accelerometerSettingsSeekBar"
+        android:text="50"
+        android:textColor="@color/defaultTextColor"
+        android:layout_alignEnd="@id/accelerometerSettingsSeekBar"
+        android:textAlignment="textEnd"/>
+
+</RelativeLayout>
