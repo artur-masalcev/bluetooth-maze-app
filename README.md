@@ -3,8 +3,7 @@ This app is made as a part of my school project. The app controls a robotic toy 
 
 More details and video: https://drive.google.com/drive/folders/1IZUI9pRBLh7USqu8pj6IVL6xD14iVned?usp=sharing
 
-The project itself was inspired by Alex Gyver Bluetooth labyrinth https://www.youtube.com/watch?v=j5V1ooMSuUU. Although this app is made using Android Studio (not 
-Thunkable IDE as in the Alex version), it should be fully compatible with the Alex Gyver labyrinth.
+The project itself was inspired by Alex Gyver Bluetooth labyrinth https://www.youtube.com/watch?v=j5V1ooMSuUU. This application was made using Android Studio (not Thunkable IDE as in the Alex version). But it still should be compatipable with the Alex's version of the labyrinth.
 
 The application is translated in Russian language as been demanded at my school.
 
@@ -30,12 +29,12 @@ The setting screen allows user to modify level of sensitivity in both control mo
 On the main screen there are three main components: timer, joystick (which is not available in accelerometer mode) and connection indicator.
 
 ### Timer
-Timer shows the current game time. It nullifies when ball is touching the start position of the labyrinth and stops when it touches the finish position. The second window represents the best time.
+The first window of the timer shows the current game time. It nullifies when ball is touching the start position of the labyrinth and stops when it touches the finish position. The second window represents the best time.
 
 ![Screenshot_4](https://user-images.githubusercontent.com/76208684/112892370-e4775800-90e1-11eb-9c6e-05de641824db.png)
 
 ### Connection indicator
-Connection indicator can be in three colors. 
+Connection indicator represents the state and stability of the connection. The indicator can be in three colors. 
 
 ![Screenshot_5](https://user-images.githubusercontent.com/76208684/112892272-ca3d7a00-90e1-11eb-9f05-c123bcdb85e3.png)
 
@@ -46,6 +45,6 @@ Connection indicator can be in three colors.
 **green** - the connection is stable and both labyrinth and smartphone are paired.
 
 ## License
-Project is inspired by Alex Gyver: https://www.youtube.com/channel/UCgtAOyEQdAyjvm9ATCi_Aig
+Project itself is inspired by Alex Gyver: https://www.youtube.com/channel/UCgtAOyEQdAyjvm9ATCi_Aig
 
 You may freely use the source code of this app and modify it.
