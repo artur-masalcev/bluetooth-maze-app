@@ -1,5 +1,5 @@
 # App for "Bluetooth maze" project
-This app is made as a part of my school project. 
+This app is made as a part of my school project. The app controls a robotic toy labyrinth by sending signals to Bluetooth module connected to Arduino.
 
 More details and video: https://drive.google.com/drive/folders/1IZUI9pRBLh7USqu8pj6IVL6xD14iVned?usp=sharing
 
